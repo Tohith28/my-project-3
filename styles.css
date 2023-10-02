@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+body, h2, ul, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Center align page content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the category headings */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the product container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Style the product cards */
+.product-card {
+    width: calc(33.33% - 20px);
+    /* Adjust to your layout */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style product images */
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Style product name */
+.product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+/* Style product description */
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style product price */
+.product-card p:last-child {
+    font-size: 16px;
+    color: #933535;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Add some spacing for smaller screens */
+@media (max-width: 768px) {
+    .product-card {
+        width: calc(50% - 20px);
+    }
+}

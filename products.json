@@ -1,0 +1,51 @@
+{
+	"categories": [{
+			"name": "Electronics",
+			"products": [{
+					"name": "Smartphone",
+					"description": "High-quality smartphone with advanced features.",
+					"price": 499.99,
+					"image_url": "https://m.media-amazon.com/images/I/61jnXvSPXDL._SX679_.jpg"
+				},
+				{
+					"name": "Laptop",
+					"description": "Powerful laptop for work and entertainment.",
+					"price": 899.99,
+					"image_url": "https://m.media-amazon.com/images/I/81RHHnGydgL._SX679_.jpg"
+				}
+			]
+		},
+		{
+			"name": "Clothing",
+			"products": [{
+					"name": "T-Shirt",
+					"description": "Comfortable cotton t-shirt in various colors.",
+					"price": 19.99,
+					"image_url": "https://m.media-amazon.com/images/I/61hEqppV-ZL._UY879_.jpg"
+				},
+				{
+					"name": "Jeans",
+					"description": "Classic denim jeans for a stylish look.",
+					"price": 39.99,
+					"image_url": "https://m.media-amazon.com/images/I/61AxmkQcyGL._UY879_.jpg"
+				}
+			]
+		},
+		{
+			"name": "Home Decor",
+			"products": [{
+					"name": "Table Lamp",
+					"description": "Elegant table lamp for your home.",
+					"price": 49.99,
+					"image_url": "https://m.media-amazon.com/images/I/71RXvbYMSpS._AC_UL800_FMwebp_QL65_.jpg"
+				},
+				{
+					"name": "Throw Pillow",
+					"description": "Decorative throw pillow with unique patterns.",
+					"price": 14.99,
+					"image_url": "https://m.media-amazon.com/images/I/61vmQ84hwMS._AC_UL800_FMwebp_QL65_.jpg"
+				}
+			]
+		}
+	]
+}
